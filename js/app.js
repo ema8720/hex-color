@@ -21,6 +21,7 @@ for(let i = 0; i < 6; i++){
     hexColor += hexValues[random];
  }
  document.body.style.backgroundColor = hexColor;
+ hexValue.textContent = hexColor;
 }
 
 })();
